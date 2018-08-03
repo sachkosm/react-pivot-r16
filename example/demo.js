@@ -5,7 +5,7 @@ var ReactDOM = require('react-dom')
 var createReactClass = require('create-react-class')
 var ReactPivot = require('..')
 
-var gh = require('./gh.jsx')
+var gh = require('./gh.js')
 var data = require('./data.json')
 
 var dimensions = [

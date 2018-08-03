@@ -1,9 +1,9 @@
 {
-  "name": "react-pivot",
+  "name": "react-pivot-r16",
   "description": "React-Pivot is a data-grid component with pivot-table-like functionality for data display, filtering, and exploration.",
   "version": "3.0.0",
   "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
-  "browser": "index.jsx",
+  "browser": "index.js",
   "browserify": {
     "transform": [
       "reactify",
@@ -53,8 +53,8 @@
     "url": "https://github.com/davidguttman/react-pivot.git"
   },
   "scripts": {
-    "example": "budo example/demo.jsx --live",
-    "example-basic": "budo example/basic.jsx",
+    "example": "budo example/demo.js --live",
+    "example-basic": "budo example/basic.js",
     "example-persist": "budo example/persist.js",
     "dist": "npm run remove-dist && npm run build-standalone",
     "remove-dist": "rm dist/*.js",
