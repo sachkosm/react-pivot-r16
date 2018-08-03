@@ -17,12 +17,12 @@ var React = require('react');
 var createReactClass = require('create-react-class');
 var DataFrame = require('dataframe');
 var Emitter = require('wildemitter');
-var partial = require('./lib/partial');
-var download = require('./lib/download');
-var getValue = require('./lib/get-value');
-var PivotTable = require('./lib/pivot-table.js');
-var Dimensions = require('./lib/dimensions.js');
-var ColumnControl = require('./lib/column-control.js');
+var partial = require('./partial');
+var download = require('./download');
+var getValue = require('./get-value');
+var PivotTable = require('./pivot-table.js');
+var Dimensions = require('./dimensions.js');
+var ColumnControl = require('./column-control.js');
 
 function loadStyles() {
   require('./style.css');
