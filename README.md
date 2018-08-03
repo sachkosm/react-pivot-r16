@@ -1,7 +1,13 @@
 # ReactPivot #
 
-Modified version to work with React version 16.
+Modified version of http://davidguttman.github.io/react-pivot/ to work with React version 16 and "create-react-app"
 
+If you build new react application by using : https://github.com/facebook/create-react-app
+To use this module - just copy folder "ReactPivotR16-Src" under your project component folder and import ReactPivot from that folder.
+If it complanes that some package is missing - just install the package.
+
+===============================================================================================================================
+Here is the original README:
 
 ReactPivot is a data-grid component with pivot-table-like functionality for data display, filtering, and exploration. Can be used without React.
 
